@@ -10,7 +10,6 @@
 		300B888D70F643801716A07F /* libPods-DouBanMovie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A29E3671AE5F4E30066D96AE /* libPods-DouBanMovie.a */; };
 		399AD7D71F6677B80024CC29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AD7D61F6677B80024CC29 /* main.m */; };
 		399AD7DA1F6677B80024CC29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AD7D91F6677B80024CC29 /* AppDelegate.m */; };
-		399AD7DD1F6677B80024CC29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AD7DC1F6677B80024CC29 /* ViewController.m */; };
 		399AD7E01F6677B80024CC29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399AD7DE1F6677B80024CC29 /* Main.storyboard */; };
 		399AD7E21F6677B80024CC29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399AD7E11F6677B80024CC29 /* Assets.xcassets */; };
 		399AD7E51F6677B80024CC29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399AD7E31F6677B80024CC29 /* LaunchScreen.storyboard */; };
@@ -21,8 +20,6 @@
 		399AD7D61F6677B80024CC29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		399AD7D81F6677B80024CC29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		399AD7D91F6677B80024CC29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		399AD7DB1F6677B80024CC29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		399AD7DC1F6677B80024CC29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		399AD7DF1F6677B80024CC29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		399AD7E11F6677B80024CC29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		399AD7E41F6677B80024CC29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,10 +62,12 @@
 		399AD7D41F6677B80024CC29 /* DouBanMovie */ = {
 			isa = PBXGroup;
 			children = (
+				399AD7F01F667E660024CC29 /* DBHot */,
+				399AD7F41F667E740024CC29 /* DBDiscovery */,
+				399AD7F81F667E810024CC29 /* DBProfile */,
+				399AD7EC1F667E5A0024CC29 /* DBMain */,
 				399AD7D81F6677B80024CC29 /* AppDelegate.h */,
 				399AD7D91F6677B80024CC29 /* AppDelegate.m */,
-				399AD7DB1F6677B80024CC29 /* ViewController.h */,
-				399AD7DC1F6677B80024CC29 /* ViewController.m */,
 				399AD7DE1F6677B80024CC29 /* Main.storyboard */,
 				399AD7E11F6677B80024CC29 /* Assets.xcassets */,
 				399AD7E31F6677B80024CC29 /* LaunchScreen.storyboard */,
@@ -84,6 +83,130 @@
 				399AD7D61F6677B80024CC29 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		399AD7EC1F667E5A0024CC29 /* DBMain */ = {
+			isa = PBXGroup;
+			children = (
+				399AD7ED1F667E5A0024CC29 /* Controller */,
+				399AD7EE1F667E5A0024CC29 /* Model */,
+				399AD7EF1F667E5A0024CC29 /* View */,
+			);
+			path = DBMain;
+			sourceTree = "<group>";
+		};
+		399AD7ED1F667E5A0024CC29 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		399AD7EE1F667E5A0024CC29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		399AD7EF1F667E5A0024CC29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		399AD7F01F667E660024CC29 /* DBHot */ = {
+			isa = PBXGroup;
+			children = (
+				399AD7F11F667E660024CC29 /* Controller */,
+				399AD7F21F667E660024CC29 /* Model */,
+				399AD7F31F667E660024CC29 /* View */,
+			);
+			path = DBHot;
+			sourceTree = "<group>";
+		};
+		399AD7F11F667E660024CC29 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		399AD7F21F667E660024CC29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		399AD7F31F667E660024CC29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		399AD7F41F667E740024CC29 /* DBDiscovery */ = {
+			isa = PBXGroup;
+			children = (
+				399AD7F51F667E740024CC29 /* Controller */,
+				399AD7F61F667E740024CC29 /* Model */,
+				399AD7F71F667E740024CC29 /* View */,
+			);
+			path = DBDiscovery;
+			sourceTree = "<group>";
+		};
+		399AD7F51F667E740024CC29 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		399AD7F61F667E740024CC29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		399AD7F71F667E740024CC29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		399AD7F81F667E810024CC29 /* DBProfile */ = {
+			isa = PBXGroup;
+			children = (
+				399AD7F91F667E810024CC29 /* Controller */,
+				399AD7FA1F667E810024CC29 /* Model */,
+				399AD7FB1F667E810024CC29 /* View */,
+			);
+			path = DBProfile;
+			sourceTree = "<group>";
+		};
+		399AD7F91F667E810024CC29 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		399AD7FA1F667E810024CC29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		399AD7FB1F667E810024CC29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B06F6297BB8367DBD030F661 /* Frameworks */ = {
@@ -226,7 +349,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				399AD7DD1F6677B80024CC29 /* ViewController.m in Sources */,
 				399AD7DA1F6677B80024CC29 /* AppDelegate.m in Sources */,
 				399AD7D71F6677B80024CC29 /* main.m in Sources */,
 			);
@@ -395,6 +517,7 @@
 				399AD7EB1F6677B80024CC29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
