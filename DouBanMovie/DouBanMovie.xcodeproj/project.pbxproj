@@ -10,9 +10,14 @@
 		300B888D70F643801716A07F /* libPods-DouBanMovie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A29E3671AE5F4E30066D96AE /* libPods-DouBanMovie.a */; };
 		399AD7D71F6677B80024CC29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AD7D61F6677B80024CC29 /* main.m */; };
 		399AD7DA1F6677B80024CC29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AD7D91F6677B80024CC29 /* AppDelegate.m */; };
-		399AD7E01F6677B80024CC29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399AD7DE1F6677B80024CC29 /* Main.storyboard */; };
 		399AD7E21F6677B80024CC29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399AD7E11F6677B80024CC29 /* Assets.xcassets */; };
 		399AD7E51F6677B80024CC29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399AD7E31F6677B80024CC29 /* LaunchScreen.storyboard */; };
+		399AD7FE1F667F310024CC29 /* DBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AD7FD1F667F310024CC29 /* DBTabBarController.m */; };
+		399AD8011F667F470024CC29 /* DBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AD8001F667F470024CC29 /* DBNavigationController.m */; };
+		399AD8041F667F620024CC29 /* DBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AD8031F667F620024CC29 /* DBBaseViewController.m */; };
+		399AD8071F667FC40024CC29 /* DBHotMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AD8061F667FC40024CC29 /* DBHotMovieController.m */; };
+		399AD80A1F667FD90024CC29 /* DBDiscoveryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AD8091F667FD90024CC29 /* DBDiscoveryController.m */; };
+		399AD80D1F667FF10024CC29 /* DBProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AD80C1F667FF10024CC29 /* DBProfileController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +25,21 @@
 		399AD7D61F6677B80024CC29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		399AD7D81F6677B80024CC29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		399AD7D91F6677B80024CC29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		399AD7DF1F6677B80024CC29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		399AD7E11F6677B80024CC29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		399AD7E41F6677B80024CC29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		399AD7E61F6677B80024CC29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		399AD7FC1F667F310024CC29 /* DBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBTabBarController.h; sourceTree = "<group>"; };
+		399AD7FD1F667F310024CC29 /* DBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTabBarController.m; sourceTree = "<group>"; };
+		399AD7FF1F667F470024CC29 /* DBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBNavigationController.h; sourceTree = "<group>"; };
+		399AD8001F667F470024CC29 /* DBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBNavigationController.m; sourceTree = "<group>"; };
+		399AD8021F667F620024CC29 /* DBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBBaseViewController.h; sourceTree = "<group>"; };
+		399AD8031F667F620024CC29 /* DBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBBaseViewController.m; sourceTree = "<group>"; };
+		399AD8051F667FC40024CC29 /* DBHotMovieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHotMovieController.h; sourceTree = "<group>"; };
+		399AD8061F667FC40024CC29 /* DBHotMovieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHotMovieController.m; sourceTree = "<group>"; };
+		399AD8081F667FD90024CC29 /* DBDiscoveryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBDiscoveryController.h; sourceTree = "<group>"; };
+		399AD8091F667FD90024CC29 /* DBDiscoveryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBDiscoveryController.m; sourceTree = "<group>"; };
+		399AD80B1F667FF10024CC29 /* DBProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBProfileController.h; sourceTree = "<group>"; };
+		399AD80C1F667FF10024CC29 /* DBProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBProfileController.m; sourceTree = "<group>"; };
 		615082CB695BFD46C42F46C8 /* Pods-DouBanMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouBanMovie.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouBanMovie/Pods-DouBanMovie.release.xcconfig"; sourceTree = "<group>"; };
 		A29E3671AE5F4E30066D96AE /* libPods-DouBanMovie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DouBanMovie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01B3FD398026688127751A2 /* Pods-DouBanMovie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouBanMovie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouBanMovie/Pods-DouBanMovie.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,7 +84,6 @@
 				399AD7EC1F667E5A0024CC29 /* DBMain */,
 				399AD7D81F6677B80024CC29 /* AppDelegate.h */,
 				399AD7D91F6677B80024CC29 /* AppDelegate.m */,
-				399AD7DE1F6677B80024CC29 /* Main.storyboard */,
 				399AD7E11F6677B80024CC29 /* Assets.xcassets */,
 				399AD7E31F6677B80024CC29 /* LaunchScreen.storyboard */,
 				399AD7E61F6677B80024CC29 /* Info.plist */,
@@ -98,6 +113,12 @@
 		399AD7ED1F667E5A0024CC29 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				399AD7FC1F667F310024CC29 /* DBTabBarController.h */,
+				399AD7FD1F667F310024CC29 /* DBTabBarController.m */,
+				399AD7FF1F667F470024CC29 /* DBNavigationController.h */,
+				399AD8001F667F470024CC29 /* DBNavigationController.m */,
+				399AD8021F667F620024CC29 /* DBBaseViewController.h */,
+				399AD8031F667F620024CC29 /* DBBaseViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -129,6 +150,8 @@
 		399AD7F11F667E660024CC29 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				399AD8051F667FC40024CC29 /* DBHotMovieController.h */,
+				399AD8061F667FC40024CC29 /* DBHotMovieController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -160,6 +183,8 @@
 		399AD7F51F667E740024CC29 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				399AD8081F667FD90024CC29 /* DBDiscoveryController.h */,
+				399AD8091F667FD90024CC29 /* DBDiscoveryController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -191,6 +216,8 @@
 		399AD7F91F667E810024CC29 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				399AD80B1F667FF10024CC29 /* DBProfileController.h */,
+				399AD80C1F667FF10024CC29 /* DBProfileController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -290,7 +317,6 @@
 			files = (
 				399AD7E51F6677B80024CC29 /* LaunchScreen.storyboard in Resources */,
 				399AD7E21F6677B80024CC29 /* Assets.xcassets in Resources */,
-				399AD7E01F6677B80024CC29 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,22 +375,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				399AD7FE1F667F310024CC29 /* DBTabBarController.m in Sources */,
+				399AD8011F667F470024CC29 /* DBNavigationController.m in Sources */,
 				399AD7DA1F6677B80024CC29 /* AppDelegate.m in Sources */,
+				399AD80D1F667FF10024CC29 /* DBProfileController.m in Sources */,
 				399AD7D71F6677B80024CC29 /* main.m in Sources */,
+				399AD80A1F667FD90024CC29 /* DBDiscoveryController.m in Sources */,
+				399AD8071F667FC40024CC29 /* DBHotMovieController.m in Sources */,
+				399AD8041F667F620024CC29 /* DBBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		399AD7DE1F6677B80024CC29 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				399AD7DF1F6677B80024CC29 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		399AD7E31F6677B80024CC29 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
