@@ -1,15 +1,18 @@
 //
-//  DBHotMovieController.h
+//  DBUtil.h
 //  DouBanMovie
 //
 //  Created by ALittleNasty on 2017/9/11.
 //  Copyright © 2017年 ALittleNasty. All rights reserved.
 
 /**
- *  热映控制器
+ *  工具类
  */
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface DBHotMovieController : UIViewController
+@interface DBUtil : NSObject
+
++ (UIImage *)imageWithColor:(UIColor *)color; 
 
 @end
