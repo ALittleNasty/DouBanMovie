@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300B888D70F643801716A07F /* libPods-DouBanMovie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A29E3671AE5F4E30066D96AE /* libPods-DouBanMovie.a */; };
+		399AD7D71F6677B80024CC29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AD7D61F6677B80024CC29 /* main.m */; };
+		399AD7DA1F6677B80024CC29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AD7D91F6677B80024CC29 /* AppDelegate.m */; };
+		399AD7DD1F6677B80024CC29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AD7DC1F6677B80024CC29 /* ViewController.m */; };
+		399AD7E01F6677B80024CC29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399AD7DE1F6677B80024CC29 /* Main.storyboard */; };
+		399AD7E21F6677B80024CC29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399AD7E11F6677B80024CC29 /* Assets.xcassets */; };
+		399AD7E51F6677B80024CC29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399AD7E31F6677B80024CC29 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		399AD7D21F6677B80024CC29 /* DouBanMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouBanMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		399AD7D61F6677B80024CC29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		399AD7D81F6677B80024CC29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		399AD7D91F6677B80024CC29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		399AD7DB1F6677B80024CC29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		399AD7DC1F6677B80024CC29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		399AD7DF1F6677B80024CC29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		399AD7E11F6677B80024CC29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		399AD7E41F6677B80024CC29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		399AD7E61F6677B80024CC29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615082CB695BFD46C42F46C8 /* Pods-DouBanMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouBanMovie.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouBanMovie/Pods-DouBanMovie.release.xcconfig"; sourceTree = "<group>"; };
+		A29E3671AE5F4E30066D96AE /* libPods-DouBanMovie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DouBanMovie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01B3FD398026688127751A2 /* Pods-DouBanMovie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouBanMovie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouBanMovie/Pods-DouBanMovie.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		399AD7CF1F6677B80024CC29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300B888D70F643801716A07F /* libPods-DouBanMovie.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		399AD7C91F6677B80024CC29 = {
+			isa = PBXGroup;
+			children = (
+				399AD7D41F6677B80024CC29 /* DouBanMovie */,
+				399AD7D31F6677B80024CC29 /* Products */,
+				EB05CBEF39C7EE3977D536F7 /* Pods */,
+				B06F6297BB8367DBD030F661 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		399AD7D31F6677B80024CC29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				399AD7D21F6677B80024CC29 /* DouBanMovie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		399AD7D41F6677B80024CC29 /* DouBanMovie */ = {
+			isa = PBXGroup;
+			children = (
+				399AD7D81F6677B80024CC29 /* AppDelegate.h */,
+				399AD7D91F6677B80024CC29 /* AppDelegate.m */,
+				399AD7DB1F6677B80024CC29 /* ViewController.h */,
+				399AD7DC1F6677B80024CC29 /* ViewController.m */,
+				399AD7DE1F6677B80024CC29 /* Main.storyboard */,
+				399AD7E11F6677B80024CC29 /* Assets.xcassets */,
+				399AD7E31F6677B80024CC29 /* LaunchScreen.storyboard */,
+				399AD7E61F6677B80024CC29 /* Info.plist */,
+				399AD7D51F6677B80024CC29 /* Supporting Files */,
+			);
+			path = DouBanMovie;
+			sourceTree = "<group>";
+		};
+		399AD7D51F6677B80024CC29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				399AD7D61F6677B80024CC29 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B06F6297BB8367DBD030F661 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A29E3671AE5F4E30066D96AE /* libPods-DouBanMovie.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB05CBEF39C7EE3977D536F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B01B3FD398026688127751A2 /* Pods-DouBanMovie.debug.xcconfig */,
+				615082CB695BFD46C42F46C8 /* Pods-DouBanMovie.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		399AD7D11F6677B80024CC29 /* DouBanMovie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 399AD7E91F6677B80024CC29 /* Build configuration list for PBXNativeTarget "DouBanMovie" */;
+			buildPhases = (
+				6480DE09A0CFEE1DBF33677B /* [CP] Check Pods Manifest.lock */,
+				399AD7CE1F6677B80024CC29 /* Sources */,
+				399AD7CF1F6677B80024CC29 /* Frameworks */,
+				399AD7D01F6677B80024CC29 /* Resources */,
+				936D58779765FD2090114E7F /* [CP] Embed Pods Frameworks */,
+				A08844C05B2CA9F0DA89236A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DouBanMovie;
+			productName = DouBanMovie;
+			productReference = 399AD7D21F6677B80024CC29 /* DouBanMovie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		399AD7CA1F6677B80024CC29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ALittleNasty;
+				TargetAttributes = {
+					399AD7D11F6677B80024CC29 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = GGHP6SBZUF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 399AD7CD1F6677B80024CC29 /* Build configuration list for PBXProject "DouBanMovie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 399AD7C91F6677B80024CC29;
+			productRefGroup = 399AD7D31F6677B80024CC29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				399AD7D11F6677B80024CC29 /* DouBanMovie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		399AD7D01F6677B80024CC29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399AD7E51F6677B80024CC29 /* LaunchScreen.storyboard in Resources */,
+				399AD7E21F6677B80024CC29 /* Assets.xcassets in Resources */,
+				399AD7E01F6677B80024CC29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6480DE09A0CFEE1DBF33677B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		936D58779765FD2090114E7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DouBanMovie/Pods-DouBanMovie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A08844C05B2CA9F0DA89236A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DouBanMovie/Pods-DouBanMovie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		399AD7CE1F6677B80024CC29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399AD7DD1F6677B80024CC29 /* ViewController.m in Sources */,
+				399AD7DA1F6677B80024CC29 /* AppDelegate.m in Sources */,
+				399AD7D71F6677B80024CC29 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		399AD7DE1F6677B80024CC29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				399AD7DF1F6677B80024CC29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		399AD7E31F6677B80024CC29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				399AD7E41F6677B80024CC29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		399AD7E71F6677B80024CC29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		399AD7E81F6677B80024CC29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		399AD7EA1F6677B80024CC29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B01B3FD398026688127751A2 /* Pods-DouBanMovie.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GGHP6SBZUF;
+				INFOPLIST_FILE = DouBanMovie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcredit.DouBanMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		399AD7EB1F6677B80024CC29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 615082CB695BFD46C42F46C8 /* Pods-DouBanMovie.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GGHP6SBZUF;
+				INFOPLIST_FILE = DouBanMovie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcredit.DouBanMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		399AD7CD1F6677B80024CC29 /* Build configuration list for PBXProject "DouBanMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				399AD7E71F6677B80024CC29 /* Debug */,
+				399AD7E81F6677B80024CC29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		399AD7E91F6677B80024CC29 /* Build configuration list for PBXNativeTarget "DouBanMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				399AD7EA1F6677B80024CC29 /* Debug */,
+				399AD7EB1F6677B80024CC29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 399AD7CA1F6677B80024CC29 /* Project object */;
+}
