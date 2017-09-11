@@ -7,6 +7,7 @@
 //
 
 #import "DBHotMovieController.h"
+#import "DouBanApi.h"
 
 @interface DBHotMovieController ()
 
@@ -19,6 +20,8 @@
     // Do any additional setup after loading the view.
     
     self.view.backgroundColor = [UIColor yellowColor];
+    
+    
 }
 
 @end

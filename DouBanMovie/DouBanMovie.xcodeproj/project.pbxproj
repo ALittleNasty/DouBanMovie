@@ -18,6 +18,7 @@
 		399AD8071F667FC40024CC29 /* DBHotMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AD8061F667FC40024CC29 /* DBHotMovieController.m */; };
 		399AD80A1F667FD90024CC29 /* DBDiscoveryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AD8091F667FD90024CC29 /* DBDiscoveryController.m */; };
 		399AD80D1F667FF10024CC29 /* DBProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AD80C1F667FF10024CC29 /* DBProfileController.m */; };
+		399AD8111F66879A0024CC29 /* DouBanApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AD8101F66879A0024CC29 /* DouBanApi.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		399AD8091F667FD90024CC29 /* DBDiscoveryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBDiscoveryController.m; sourceTree = "<group>"; };
 		399AD80B1F667FF10024CC29 /* DBProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBProfileController.h; sourceTree = "<group>"; };
 		399AD80C1F667FF10024CC29 /* DBProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBProfileController.m; sourceTree = "<group>"; };
+		399AD80F1F66878D0024CC29 /* DouBanApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DouBanApi.h; sourceTree = "<group>"; };
+		399AD8101F66879A0024CC29 /* DouBanApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DouBanApi.m; sourceTree = "<group>"; };
 		615082CB695BFD46C42F46C8 /* Pods-DouBanMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouBanMovie.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouBanMovie/Pods-DouBanMovie.release.xcconfig"; sourceTree = "<group>"; };
 		A29E3671AE5F4E30066D96AE /* libPods-DouBanMovie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DouBanMovie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01B3FD398026688127751A2 /* Pods-DouBanMovie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouBanMovie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouBanMovie/Pods-DouBanMovie.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,6 +106,7 @@
 		399AD7EC1F667E5A0024CC29 /* DBMain */ = {
 			isa = PBXGroup;
 			children = (
+				399AD80E1F6687420024CC29 /* Resource */,
 				399AD7ED1F667E5A0024CC29 /* Controller */,
 				399AD7EE1F667E5A0024CC29 /* Model */,
 				399AD7EF1F667E5A0024CC29 /* View */,
@@ -234,6 +238,15 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		399AD80E1F6687420024CC29 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				399AD80F1F66878D0024CC29 /* DouBanApi.h */,
+				399AD8101F66879A0024CC29 /* DouBanApi.m */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		B06F6297BB8367DBD030F661 /* Frameworks */ = {
@@ -378,6 +391,7 @@
 				399AD7FE1F667F310024CC29 /* DBTabBarController.m in Sources */,
 				399AD8011F667F470024CC29 /* DBNavigationController.m in Sources */,
 				399AD7DA1F6677B80024CC29 /* AppDelegate.m in Sources */,
+				399AD8111F66879A0024CC29 /* DouBanApi.m in Sources */,
 				399AD80D1F667FF10024CC29 /* DBProfileController.m in Sources */,
 				399AD7D71F6677B80024CC29 /* main.m in Sources */,
 				399AD80A1F667FD90024CC29 /* DBDiscoveryController.m in Sources */,
