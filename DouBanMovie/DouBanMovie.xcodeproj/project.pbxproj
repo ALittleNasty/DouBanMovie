@@ -21,6 +21,12 @@
 		399AD8111F66879A0024CC29 /* DouBanApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AD8101F66879A0024CC29 /* DouBanApi.m */; };
 		399AD8151F668BE50024CC29 /* DBHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AD8141F668BE50024CC29 /* DBHttpTool.m */; };
 		399AD8181F668EB60024CC29 /* DBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AD8171F668EB60024CC29 /* DBUtil.m */; };
+		39F6B06E1F692430005178AB /* HotMovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F6B06D1F692430005178AB /* HotMovieModel.m */; };
+		39F6B0711F69250F005178AB /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F6B0701F69250F005178AB /* Subject.m */; };
+		39F6B0741F6926E7005178AB /* SubjectRating.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F6B0731F6926E7005178AB /* SubjectRating.m */; };
+		39F6B07A1F6927BE005178AB /* SubjectImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F6B0791F6927BE005178AB /* SubjectImages.m */; };
+		39F6B07D1F6927FE005178AB /* Avatar.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F6B07C1F6927FE005178AB /* Avatar.m */; };
+		39F6B0801F692825005178AB /* SubjectDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F6B07F1F692825005178AB /* SubjectDirector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +55,18 @@
 		399AD8141F668BE50024CC29 /* DBHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHttpTool.m; sourceTree = "<group>"; };
 		399AD8161F668EB60024CC29 /* DBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBUtil.h; sourceTree = "<group>"; };
 		399AD8171F668EB60024CC29 /* DBUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBUtil.m; sourceTree = "<group>"; };
+		39F6B06C1F692430005178AB /* HotMovieModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotMovieModel.h; sourceTree = "<group>"; };
+		39F6B06D1F692430005178AB /* HotMovieModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotMovieModel.m; sourceTree = "<group>"; };
+		39F6B06F1F69250F005178AB /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
+		39F6B0701F69250F005178AB /* Subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
+		39F6B0721F6926E7005178AB /* SubjectRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectRating.h; sourceTree = "<group>"; };
+		39F6B0731F6926E7005178AB /* SubjectRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectRating.m; sourceTree = "<group>"; };
+		39F6B0781F6927BE005178AB /* SubjectImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectImages.h; sourceTree = "<group>"; };
+		39F6B0791F6927BE005178AB /* SubjectImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectImages.m; sourceTree = "<group>"; };
+		39F6B07B1F6927FE005178AB /* Avatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Avatar.h; sourceTree = "<group>"; };
+		39F6B07C1F6927FE005178AB /* Avatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Avatar.m; sourceTree = "<group>"; };
+		39F6B07E1F692825005178AB /* SubjectDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectDirector.h; sourceTree = "<group>"; };
+		39F6B07F1F692825005178AB /* SubjectDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectDirector.m; sourceTree = "<group>"; };
 		615082CB695BFD46C42F46C8 /* Pods-DouBanMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouBanMovie.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouBanMovie/Pods-DouBanMovie.release.xcconfig"; sourceTree = "<group>"; };
 		A29E3671AE5F4E30066D96AE /* libPods-DouBanMovie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DouBanMovie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01B3FD398026688127751A2 /* Pods-DouBanMovie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouBanMovie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouBanMovie/Pods-DouBanMovie.debug.xcconfig"; sourceTree = "<group>"; };
@@ -170,6 +188,18 @@
 		399AD7F21F667E660024CC29 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				39F6B06C1F692430005178AB /* HotMovieModel.h */,
+				39F6B06D1F692430005178AB /* HotMovieModel.m */,
+				39F6B06F1F69250F005178AB /* Subject.h */,
+				39F6B0701F69250F005178AB /* Subject.m */,
+				39F6B0721F6926E7005178AB /* SubjectRating.h */,
+				39F6B0731F6926E7005178AB /* SubjectRating.m */,
+				39F6B0781F6927BE005178AB /* SubjectImages.h */,
+				39F6B0791F6927BE005178AB /* SubjectImages.m */,
+				39F6B07E1F692825005178AB /* SubjectDirector.h */,
+				39F6B07F1F692825005178AB /* SubjectDirector.m */,
+				39F6B07B1F6927FE005178AB /* Avatar.h */,
+				39F6B07C1F6927FE005178AB /* Avatar.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -408,11 +438,17 @@
 			files = (
 				399AD7FE1F667F310024CC29 /* DBTabBarController.m in Sources */,
 				399AD8011F667F470024CC29 /* DBNavigationController.m in Sources */,
+				39F6B0801F692825005178AB /* SubjectDirector.m in Sources */,
+				39F6B07D1F6927FE005178AB /* Avatar.m in Sources */,
+				39F6B06E1F692430005178AB /* HotMovieModel.m in Sources */,
 				399AD7DA1F6677B80024CC29 /* AppDelegate.m in Sources */,
 				399AD8151F668BE50024CC29 /* DBHttpTool.m in Sources */,
+				39F6B0711F69250F005178AB /* Subject.m in Sources */,
 				399AD8111F66879A0024CC29 /* DouBanApi.m in Sources */,
 				399AD80D1F667FF10024CC29 /* DBProfileController.m in Sources */,
+				39F6B07A1F6927BE005178AB /* SubjectImages.m in Sources */,
 				399AD7D71F6677B80024CC29 /* main.m in Sources */,
+				39F6B0741F6926E7005178AB /* SubjectRating.m in Sources */,
 				399AD8181F668EB60024CC29 /* DBUtil.m in Sources */,
 				399AD80A1F667FD90024CC29 /* DBDiscoveryController.m in Sources */,
 				399AD8071F667FC40024CC29 /* DBHotMovieController.m in Sources */,

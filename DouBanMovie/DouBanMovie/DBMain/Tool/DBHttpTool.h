@@ -12,6 +12,6 @@
 
 @interface DBHttpTool : NSObject
 
-+ (void)get:(NSString *)URLString parameters:(id)params showLoading:(BOOL)yesOrNo success:(void(^)(id result))success failure:(void (^)(NSError *error))failure ;
++ (void)get:(NSString *)URLString parameters:(id)params success:(void(^)(id result))success failure:(void (^)(NSError *error))failure ;
 
 @end
