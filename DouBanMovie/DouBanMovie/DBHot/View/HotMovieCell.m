@@ -56,14 +56,17 @@ NSString *HotMovieCellID = @"HotMovieCellIdentifier";
 {
     _model = model;
     
-    [_afficheImageView sd_setImageWithURL:[NSURL URLWithString:_model.images.small]];
-    _nameLabel.text = _model.title;
-    _ratingLabel.text = _model.rating.average;
+    [_afficheImageView sd_setImageWithURL:[NSURL URLWithString:_model.images.small]]; // 设置海报图片
+    _nameLabel.text = _model.title; // 电影名称
+    _ratingLabel.text = _model.rating.average; // 平均评分
+    
+    // 导演
     if (_model.directors.count) {
         SubjectDirector *director = _model.directors.firstObject;
         _directorLabel.text = [NSString stringWithFormat:@"导演: %@", director.name];
     }
     
+    // 主演
     NSMutableString *actor = [NSMutableString string];
     for (NSInteger i = 0; i < _model.casts.count; i++) {
         SubjectDirector *cast = _model.casts[i];
@@ -74,27 +77,43 @@ NSString *HotMovieCellID = @"HotMovieCellIdentifier";
     }
     _actorLabel.text = [NSString stringWithFormat:@"主演: %@", actor];
     
-    if ([_model.has_video boolValue]) {
+    // 根据大陆的上映日期, 来判断显示 "预售" 还是 "购票" 以及 "看过"和"想看"
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    formatter.dateFormat = @"yyyy-MM-dd";
+    NSDate *publistDate = [formatter dateFromString:_model.mainland_pubdate];
+    NSDate *today = [NSDate date];
+    NSComparisonResult result = [publistDate compare:today];
+    if (result > 0) {
+        
+        _payButton.layer.borderWidth = 1.0;
+        _payButton.layer.borderColor = [UIColor orangeColor].CGColor;
+        [_payButton setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
+        [_payButton setTitle:@"预售" forState:UIControlStateNormal];
+        _seenLabel.text = [NSString stringWithFormat:@"%@人想看", _model.collect_count];
+    } else {
         
         _payButton.layer.borderWidth = 1.0;
         _payButton.layer.borderColor = [UIColor blueColor].CGColor;
         [_payButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
         [_payButton setTitle:@"购票" forState:UIControlStateNormal];
         _seenLabel.text = [NSString stringWithFormat:@"%@人看过", _model.collect_count];
-    } else {
-    
-        _payButton.layer.borderWidth = 1.0;
-        _payButton.layer.borderColor = [UIColor orangeColor].CGColor;
-        [_payButton setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
-        [_payButton setTitle:@"预售" forState:UIControlStateNormal];
-        _seenLabel.text = [NSString stringWithFormat:@"%@人想看", _model.collect_count];
     }
     
     // 评分✨
     NSInteger ratingAverage = (NSInteger)([_model.rating.average floatValue] * 10);
-    
-    NSInteger fullStarCount = ratingAverage / 20;
-    BOOL hasHalfStar = (ratingAverage % 20 > 10) ? YES : NO;
+    [self displayRatingStarWithRatingScore:ratingAverage];
+}
+
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
+    [super setSelected:selected animated:animated];
+
+    // Configure the view for the selected state
+}
+
+- (void)displayRatingStarWithRatingScore:(NSInteger)score
+{
+    NSInteger fullStarCount = score / 20;
+    BOOL hasHalfStar = (score % 20 > 10) ? YES : NO;
     if (fullStarCount == 0) {
         
         if (hasHalfStar) {
@@ -108,7 +127,7 @@ NSString *HotMovieCellID = @"HotMovieCellIdentifier";
         _starImage5.image = [UIImage imageNamed:@"ic_rate_small_empty"];
         
     } else if (fullStarCount == 1) {
-    
+        
         _starImage1.image = [UIImage imageNamed:@"ic_rate_small_full"];
         if (hasHalfStar) {
             _starImage2.image = [UIImage imageNamed:@"ic_rate_small_half"];
@@ -162,13 +181,6 @@ NSString *HotMovieCellID = @"HotMovieCellIdentifier";
         _starImage4.image = [UIImage imageNamed:@"ic_rate_small_full"];
         _starImage5.image = [UIImage imageNamed:@"ic_rate_small_full"];
     }
-    
-}
-
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
 }
 
 @end
