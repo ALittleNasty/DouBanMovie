@@ -19,7 +19,7 @@
 
 @property (nonatomic, copy) NSString *title;
 
-@property (nonatomic, copy) NSArray *casts;
+@property (nonatomic, copy) NSArray <SubjectDirector *>*casts;
 
 @property (nonatomic, copy) NSArray *durations;
 

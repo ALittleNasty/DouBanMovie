@@ -16,4 +16,10 @@
     return @{@"ID" : @"id"};
 }
 
++ (NSDictionary *)mj_objectClassInArray
+{
+    return @{ @"casts" : @"SubjectDirector",
+              @"directors" : @"SubjectDirector" };
+}
+
 @end
